@@ -1,0 +1,12 @@
+c:\users\jerod\documents\visual studio 2015\Projects\ImageSorter\ImageSorter\bin\Debug\ImageSorter.exe.config
+c:\users\jerod\documents\visual studio 2015\Projects\ImageSorter\ImageSorter\bin\Debug\ImageSorter.exe
+c:\users\jerod\documents\visual studio 2015\Projects\ImageSorter\ImageSorter\bin\Debug\ImageSorter.pdb
+c:\users\jerod\documents\visual studio 2015\Projects\ImageSorter\ImageSorter\obj\Debug\ImageSorter.csprojResolveAssemblyReference.cache
+c:\users\jerod\documents\visual studio 2015\Projects\ImageSorter\ImageSorter\obj\Debug\ImageSorter.exe
+c:\users\jerod\documents\visual studio 2015\Projects\ImageSorter\ImageSorter\obj\Debug\ImageSorter.pdb
+C:\Users\Jerod\Documents\Visual Studio 2015\Projects\FileSorter\FileSorter\bin\Debug\ImageSorter.exe.config
+C:\Users\Jerod\Documents\Visual Studio 2015\Projects\FileSorter\FileSorter\bin\Debug\ImageSorter.exe
+C:\Users\Jerod\Documents\Visual Studio 2015\Projects\FileSorter\FileSorter\bin\Debug\ImageSorter.pdb
+C:\Users\Jerod\Documents\Visual Studio 2015\Projects\FileSorter\FileSorter\obj\Debug\FileSorter.csprojResolveAssemblyReference.cache
+C:\Users\Jerod\Documents\Visual Studio 2015\Projects\FileSorter\FileSorter\obj\Debug\ImageSorter.exe
+C:\Users\Jerod\Documents\Visual Studio 2015\Projects\FileSorter\FileSorter\obj\Debug\ImageSorter.pdb
