@@ -1,7 +1,5 @@
 # FileSorter-Console-  
 
-FileSorter is a simple command line tool used to organize your mess of files into nicely sortable by date folders.  
-
 Example:  
 
 *Original - out of order, hard to find what you are looking for*  
