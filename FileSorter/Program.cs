@@ -55,13 +55,10 @@ namespace FileSorter
             
             List<FileInfo> FileInfoList = new List<FileInfo>();
 
-            int count = 0;
             foreach (string filePath in filePaths)
             {
                 DateTime date = GetDateTakenOrModified(filePath);
                 FileInfoList.Add(new FileInfo(filePath, date));
-
-                count += 1;
             }
             Console.WriteLine("\n>FINISHED GATHERTING FILES FROM " + dirPath + ".");
 
