@@ -125,12 +125,6 @@ namespace FileSorter
                             copyOrMoveCounter += 1;
                         }
                     }
-
-                    if (copyOrMove == "C") Console.WriteLine(">PROGRAM FINISHED.\n\n>COPIED " + copyOrMoveCounter + " FILES OF ORIGINAL " + filePaths.Length + 
-                        " FILES IN DIRECTORY.\n>CREATED " + directoryCounter + " NEW FOLDERS.");
-                    if (copyOrMove == "M") Console.WriteLine(">PROGRAM FINISHED.\n\n>MOVED " + copyOrMoveCounter + " FILES OF ORIGINAL " + filePaths.Length + 
-                        " FILES IN DIRECTORY.\n>CREATED " + directoryCounter + " NEW FOLDERS.");
-
                     break;
 
                 case "M":
@@ -163,12 +157,6 @@ namespace FileSorter
                             copyOrMoveCounter += 1;
                         }
                     }
-
-                    if (copyOrMove == "C") Console.WriteLine(">PROGRAM FINISHED.\n\n>COPIED " + copyOrMoveCounter + " FILES OF ORIGINAL " + filePaths.Length +
-                        " FILES IN DIRECTORY.\n>CREATED " + directoryCounter + " NEW FOLDERS.");
-                    if (copyOrMove == "M") Console.WriteLine(">PROGRAM FINISHED.\n\n>MOVED " + copyOrMoveCounter + " FILES OF ORIGINAL " + filePaths.Length +
-                        " FILES IN DIRECTORY.\n>CREATED " + directoryCounter + " NEW FOLDERS.");
-
                     break;
 
                 case "Y":
@@ -201,14 +189,13 @@ namespace FileSorter
                             copyOrMoveCounter += 1;
                         }
                     }
-
-                    if (copyOrMove == "C") Console.WriteLine(">PROGRAM FINISHED.\n\n>COPIED " + copyOrMoveCounter + " FILES OF ORIGINAL " + filePaths.Length +
-                        " FILES IN DIRECTORY.\n>CREATED " + directoryCounter + " NEW FOLDERS.");
-                    if (copyOrMove == "M") Console.WriteLine(">PROGRAM FINISHED.\n\n>MOVED " + copyOrMoveCounter + " FILES OF ORIGINAL " + filePaths.Length +
-                        " FILES IN DIRECTORY.\n>CREATED " + directoryCounter + " NEW FOLDERS.");
-
                     break;
             }
+
+            if (copyOrMove == "C") Console.WriteLine(">PROGRAM FINISHED.\n\n>COPIED " + copyOrMoveCounter + " FILES OF ORIGINAL " + filePaths.Length +
+                " FILES IN DIRECTORY.\n>CREATED " + directoryCounter + " NEW FOLDERS.");
+            if (copyOrMove == "M") Console.WriteLine(">PROGRAM FINISHED.\n\n>MOVED " + copyOrMoveCounter + " FILES OF ORIGINAL " + filePaths.Length +
+                " FILES IN DIRECTORY.\n>CREATED " + directoryCounter + " NEW FOLDERS.");
 
             Console.WriteLine("\n>PRESS ANY KEY TO EXIT.");
             Console.ReadLine();
